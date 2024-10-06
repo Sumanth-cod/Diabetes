@@ -34,7 +34,7 @@ def predict():
         result = "Diabetes"
 
     # Render the template and display the result
-    return render_template("index.html", prediction_text=f"The Person is {result}")
+    return render_template("index.html",prediction_text=f"The Person is {result}")
 
 # Run the Flask app
 if __name__ == "__main__":
